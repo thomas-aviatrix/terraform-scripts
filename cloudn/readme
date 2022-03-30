@@ -1,1 +1,7 @@
 This is folder for cloudn lab
+1. First you need to update following variables based on your own transit vnet in the vars.tf
+variable "transit_vnet_name" 
+variable "transit_vnet_region"
+variable "transit_vnet_resource_group" 
+variable "transit_vnet_gw_subnet_cidr"
+2. Please keep rest of part of vars.tf
